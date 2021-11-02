@@ -1,0 +1,37 @@
+<html>
+    
+    <head>
+
+        <body>
+
+            <header>
+
+                <div class="container">
+              
+                    <div id="brandname">
+                        Machine Learning app with Flask
+                    </div>
+    
+                    <h2> Netflix Sentiment Analysis (Movie Review) </h2>
+                 </div>
+            
+            </header>
+
+                   <p style="color :blue ; font-size : 20 ; text-align: center;"><b> Results of Review </b></p>
+                  
+                
+
+                  {% if prediction == 1%}
+                  <h2 style="color: rgb(4, 97, 4);"> Positive Review </h2>
+                  {% elif prediction ==0%}
+                  <h2 style="color: #ff0000;"> Negative Review </h2>
+                  {%endif%}
+            
+        </body>
+
+
+
+    </head>
+
+
+</html>
